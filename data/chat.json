@@ -1,26 +1,26 @@
 {
     "chat": [
       {
-        "name": "John Doe",
-        "avatarurl": "https://i.insider.com/5dcc135ce94e86714253af21?width=1000&format=jpeg&auto=webp",
+        "name": "Kyle Williams",
+        "avatarurl": "https://thumbs.dreamstime.com/b/young-male-interior-designer-planning-paper-office-portrait-91769938.jpg",
         "isonline": true,
         "typing": false,
         "lastonline": "RN",
         "unreadmsgs": 2,
-        "lastmsg": "Hey Bro whats up"
+        "lastmsg": "Hey I looked into what you sent over, and I think we can get it done."
       },
       {
-        "name": "Jane Doe",
-        "avatarurl": "https://wme-gep-drupal-hbo-prod.s3.amazonaws.com/content/dam/hbodata/series/girls/character/jessa-johansson-512.jpg?w=160",
+        "name": "Shakira",
+        "avatarurl": "https://hips.hearstapps.com/hmg-prod/images/gettyimages-101962685-1673538207.jpg",
         "isonline": false,
         "typing": true,
         "lastonline": "1 min ago",
         "unreadmsgs": 10,
-        "lastmsg": "Yoooooooooo!"
+        "lastmsg": "Thank you!"
       },
       {
         "name": "Pro Doe",
-        "avatarurl": "https://www.koimoi.com/wp-content/new-galleries/2022/06/chris-hemsworth-to-appear-as-thor-for-the-final-time-in-thor-love-thunder-heres-what-he-has-to-say-about-it-01.jpg",
+        "avatarurl": "https://cdn.shopify.com/s/files/1/0081/6562/1857/articles/Featured_AliceSmith_ef2f7258-df11-4f93-a2fc-c5b3e9fea3c1_1024x1024.jpg?v=1614781537g",
         "isonline": false,
         "typing": true,
         "lastonline": "3 hour ago",
@@ -34,7 +34,7 @@
         "typing": false,
         "lastonline": "1 min ago",
         "unreadmsgs": null,
-        "lastmsg": "Wanna hangout?"
+        "lastmsg": "What do you think?"
       },
       {
         "name": "Steve Rogers",
@@ -52,7 +52,7 @@
         "typing": false,
         "lastonline": "RN",
         "unreadmsgs": null,
-        "lastmsg": "C'mon maaan"
+        "lastmsg": "Really cool post"
       },
       {
         "name": "Tom Holland",
@@ -64,13 +64,13 @@
         "lastmsg": "yo bro"
       },
       {
-        "name": "Scarlett Johansson",
-        "avatarurl": "https://www.biography.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTE4MDAzNDEwNzkxOTI1MjYy/scarlett-johansson-13671719-1-402.jpg",
+        "name": "Matt Smith",
+        "avatarurl": "https://hips.hearstapps.com/digitalspyuk.cdnds.net/13/37/matt-smith-hair.jpg",
         "isonline": true,
         "typing": false,
         "lastonline": "RN",
         "unreadmsgs": null,
-        "lastmsg": "Hey Bro whats up"
+        "lastmsg": "Hi mate, how's it going?"
       }
     ]
   }
