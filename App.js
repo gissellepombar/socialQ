@@ -1,33 +1,37 @@
-import { createContext, useState } from 'react';
-import { NavigationContainer } from '@react-navigation/native';
-import {createNativeStackNavigator} from '@react-navigation/native-stack'
-import { StatusBar } from 'expo-status-bar';
-import Feed from './src/components/Feed';
-import Details from './src/components/Details'
+import * as React from "react";
+import { StatusBar } from "react-native";
+import { NavigationContainer } from "@react-navigation/native";
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import { Colors } from "./misc/Colors";
+import Main from "./screens/Main";
 
-const Stack = createNativeStackNavigator();
-export const PostContext = createContext();
+function App() {
+    const Stack = createNativeStackNavigator();
 
-export default function App() {
-    const [currentPost, setCurrentPost] = useState();
     return (
-    <PostContext.Provider value={{currentPost, setCurrentPost}}>
-        <NavigationContainer>
-            <StatusBar style="auto" />
-                <Stack.Navigator initialRouteName='Home'>
-                    <Stack.Screen name="Home" component={Feed} />
-                    <Stack.Screen name="Details" component={Details} />
+        <>
+            <StatusBar
+                barStyle={"light-content"}
+                translucent={true}
+                backgroundColor={"transparent"}
+            />
+            <NavigationContainer>
+                <Stack.Navigator
+                    screenOptions={{
+                        contentStyle: { backgroundColor: Colors.tertiary },
+                    }}
+                >
+                    <Stack.Screen
+                        name="Main"
+                        component={Main}
+                        options={{
+                            headerShown: false,
+                        }}
+                    />
                 </Stack.Navigator>
-        </NavigationContainer>
-    </PostContext.Provider>
-  );
+            </NavigationContainer>
+        </>
+    );
 }
 
-// const styles = StyleSheet.create({
-//   container: {
-//     flex: 1,
-//     backgroundColor: '#fff',
-//     alignItems: 'center',
-//     justifyContent: 'center',
-//   },
-// });
+export default App;
