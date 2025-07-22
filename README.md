@@ -1,5 +1,5 @@
 
-# Link Up
+# SocialQ
 
 Link Up is a front-end React Native mobile application for social media. It allows users to connect with friends, share updates, and explore engaging content.
 
